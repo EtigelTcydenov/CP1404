@@ -11,7 +11,7 @@ print(CODE_TO_NAME)
 for name, long_name in CODE_TO_NAME.items():
     print(f"{name} is {long_name}")
 
-while True:
+for name in CODE_TO_NAME:
     try:
         state_code = input("Enter short state: ").upper()
         if state_code == "":
