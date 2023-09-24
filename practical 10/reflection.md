@@ -1,0 +1,3 @@
+ 1. Yes, of course. Accuracy has increased exponentially
+ 2. Being checked by other programmers is a great experience, as some leave really interesting comments that were visible from their side of the screen. and also checking the code, thanks to this you start to read the programmer's train of thought or get lost altogether, but at the same time helping him.
+ 3. I would increase the maximum score from 4 to 10, because in some cases if the work is not done perfectly, but well he will get the same if it was done normally. this loses the point of making the code perfect, as there is always a chance that you made a minimal error, which would entail 2/4 or 3/4
