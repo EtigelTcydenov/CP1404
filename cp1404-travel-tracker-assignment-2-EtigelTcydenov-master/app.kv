@@ -1,0 +1,27 @@
+# Create your Kivy layout in the kv language here
+<MainScreen>:
+    orientation: "vertical"
+
+    Label:
+        size_hint_y: None
+        height: 50
+        text: "TravelTracker"
+        color: 0, 1, 0, 1  # green color
+
+    BoxLayout:
+
+    ScrollView:
+        size_hint_y: 0.8
+        BoxLayout:
+            orientation: "vertical"
+            id: places_container
+            size_hint_y: None
+            height: max(self.minimum_height, root.height)
+            Button:
+                text: place.name
+                on_press: root.mark_visited(place)
+                for place in root.places_list
+
+    Label:
+        id: status_label
+        text: root.status_message
